@@ -165,3 +165,7 @@ Open _br.filter.example.1.0.maxpat (keep it in the same folder as the abstractio
 - **biquad:** Pick a type from the menu, then drag the curve in filtergraph~. The menu sets the biquad's Type and filtergraph~'s shape together.
 - **lowpass-highpass, bandpass, notch-allpass, eq:** All of the tab's filters run at once. The listen menu chooses which one you hear, with a 20 ms crossfade, and "dry" plays the unfiltered source to compare.
 - **notch-allpass:** Pick "allpass + dry" and sweep Cutoff to hear the allpass cut a notch when it is mixed with the dry signal: the basis of a phaser.
+
+## <a name="Credits"></a>Credits
+
+Filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.
