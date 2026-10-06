@@ -39,13 +39,15 @@
         "enablehscroll": 1,
         "enablevscroll": 1,
         "devicewidth": 215.0,
-        "description": "",
+        "description" : "br.filter.lowshelf.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.",
         "digest": "",
         "tags": "",
         "style": "",
         "subpatcher_template": "",
         "assistshowspatchername": 0,
         "boxes": [
+{"box": {"id": "obj-signature", "maxclass": "comment", "numinlets": 1, "numoutlets": 0, "patching_rect": [669.0, 15.0, 520.0, 60.0], "text": "br.filter.lowshelf.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/\nCredits: filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.", "linecount": 3}},
+
             {
                 "box": {
                     "maxclass": "comment",
@@ -824,7 +826,7 @@
             {
                 "box": {
                     "maxclass": "panel",
-                    "id": "obj-16",
+                    "id": "obj-16", "hint" : "br.filter.lowshelf.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.", "annotation" : "br.filter.lowshelf.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": [],
