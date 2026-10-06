@@ -53,3 +53,11 @@ A family of stereo filter abstractions for Max/MSP, built in gen~ from the RBJ A
 **filtergraph~ ready:** filtergraph~'s cutoff and Q outlets plug straight into the Cutoff and Q inlets.
 
 The example patch (_br.filter.example.1.0.maxpat) has a tab for the biquad with filtergraph~, and tabs for the other filters grouped by family, each with a menu to switch between them.
+
+## <a name="Credits"></a>Credits
+
+Filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.
+
+## <a name="Credits"></a>Credits
+
+Filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.
