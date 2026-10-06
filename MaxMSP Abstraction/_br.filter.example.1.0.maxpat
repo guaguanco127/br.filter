@@ -1,5 +1,6 @@
 {
     "patcher": {
+"description" : "_br.filter.example.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.",
         "fileversion": 1,
         "appversion": {
             "major": 9,
@@ -13,6 +14,8 @@
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
+{"box": {"id": "obj-signature", "maxclass": "comment", "numinlets": 1, "numoutlets": 0, "patching_rect": [676.0, 15.0, 520.0, 60.0], "text": "_br.filter.example.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/\nCredits: filter formulas from the Audio EQ Cookbook by Robert Bristow-Johnson.", "linecount": 3}},
+
             {
                 "box": {
                     "fontname": "Arial",
