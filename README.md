@@ -1,4 +1,4 @@
-# Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live 
+# Max/MSP Patches, Abstractions, Externals, RNBO and VSTs
 
 ## br.filter.1.1
 
@@ -12,15 +12,16 @@ By Brian Riordan
 Repository for br.filter.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.filter](https://github.com/guaguanco127/br.filter)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
-These files were created with Max 9. 
+These files were created with Max 9, or RNBO.
 
 ## Links
 
 [What's new in 1.1](#New11)  
 [About](#About)   
 [Max/MSP Abstractions](https://github.com/guaguanco127/br.filter/tree/main/MaxMSP%20Abstraction) To use as abstractions within Max/MSP   
+[Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.filter/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max externals or VST/AU plugins, or to reuse the code in your own RNBO patches (needs RNBO)  
 
-This is a Max/MSP-only release (no Max for Live device).
+You can use them as abstractions within Max/MSP. With RNBO you can also build your own Max externals or plugins from the included RNBO patches, one per filter.
 
 ## <a name="New11"></a>What's new in 1.1
 
@@ -28,6 +29,7 @@ This is a Max/MSP-only release (no Max for Live device).
 - A State outlet on the .ui versions sends the settings as named messages the moment they change.
 - Smaller panels, and new example tabs: lfo, lfo 2-4 and State outlet.
 - Inlets and audio outlets are unchanged.
+- New RNBO patches, one per filter, to build your own Max externals or VST/AU plugins.
 
 ## <a name="About"></a>About
 
