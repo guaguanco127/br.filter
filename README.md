@@ -26,7 +26,7 @@ This is a Max/MSP-only release (no Max for Live device).
 
 - **Two files per filter:** br.filter.<type>.1.1 is the plain object, whose control inlets take signals as well as numbers (patch an LFO into Cutoff, Q or Gain), and br.filter.<type>.ui.1.1 is the version with dials, for a [bpatcher].
 - A State outlet on the .ui versions sends the settings as named messages the moment they change.
-- Smaller panels, and two new example tabs: lfo and State outlet.
+- Smaller panels, and new example tabs: lfo, lfo 2-4 and State outlet.
 - Inlets and audio outlets are unchanged.
 
 ## <a name="About"></a>About
@@ -64,7 +64,7 @@ A family of stereo filter abstractions for Max/MSP, built in gen~ from the RBJ A
 
 **filtergraph~ ready:** filtergraph~'s cutoff and Q outlets plug straight into the Cutoff and Q inlets.
 
-The example patch (_br.filter.example.1.1.maxpat) has a tab for the biquad with filtergraph~, tabs for the other filters grouped by family, each with a menu to switch between them, an lfo tab with LFOs driving the plain objects, and a State outlet tab.
+The example patch (_br.filter.example.1.1.maxpat) has a tab for the biquad with filtergraph~, tabs for the other filters grouped by family, each with a menu to switch between them, lfo tabs (lfo, lfo 2, lfo 3, lfo 4) with LFOs driving all twelve plain objects, and a State outlet tab.
 
 ## <a name="Credits"></a>Credits
 
