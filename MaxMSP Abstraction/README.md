@@ -32,7 +32,7 @@ These files were created with Max 9.
 - New [State outlet](#State) on the .ui versions (the last outlet): it sends the settings as named messages the moment they change.
 - Smaller panels: each .ui version is only as wide as its controls (see [How To Install](#Install)).
 - Inlets and the audio outlets are unchanged. If you used 1.0 in a [bpatcher], choose the .ui.1.1 file; if you used it as an object box, type the plain 1.1 name.
-- The example patch has two new tabs: **lfo** (LFOs patched straight into the plain objects) and **State outlet**.
+- The example patch has new tabs: **lfo** and **lfo 2-4** (LFOs patched straight into all twelve plain objects) and **State outlet**.
 
 ## <a name="About"></a>About
 
@@ -216,6 +216,7 @@ Open _br.filter.example.1.1.maxpat (keep it in the same folder as the abstractio
 - **lowpass-highpass, bandpass, notch-allpass, eq:** All of the tab's filters run at once. The listen menu chooses which one you hear, with a 20 ms crossfade, and "dry" plays the unfiltered source to compare.
 - **notch-allpass:** Pick "allpass + dry" and sweep Cutoff to hear the allpass cut a notch when it is mixed with the dry signal: the basis of a phaser.
 - **lfo:** LFOs patched straight into the plain objects, no dials: a sine sweeping a lowpass's Cutoff (in MIDI notes through [mtof~], so the sweep sounds even), a sine pumping a peak filter's Gain, and a [phasor~] ramp rising through a bandpass.lvl's Cutoff. The controls no LFO drives are set with plain numbers.
+- **lfo 2, lfo 3, lfo 4:** the same idea for the other nine plain objects: highpass, lowpass.lvl (an LFO on Q) and biquad (with a Type menu); bandpass, resonbp (Autogain on, so its Q 12 peak stays at 0 dB) and notch; allpass (mixed half and half with dry, a phaser), lowshelf and highshelf (an LFO on Gain).
 - **State outlet:** reads the biquad tab's settings by name with [route]. The biquad tab also sends them back to filtergraph~, so the curve follows the dials.
 
 ## <a name="Credits"></a>Credits
