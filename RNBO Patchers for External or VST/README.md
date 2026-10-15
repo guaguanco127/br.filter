@@ -1,8 +1,8 @@
 # Max/MSP RNBO Patches for External Creation: br.filter.<type>.rnbo.1.1  
    
 By Brian Riordan  
-[guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
-[brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
+guaguanco127 [at] gmail [dot] com  
+brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
 Repository for br.filter.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.filter](https://github.com/guaguanco127/br.filter)  
